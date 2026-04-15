@@ -1,7 +1,7 @@
 # BIAI---Rastrigin-function
 ---
 
-##Opis zadania
+## Opis zadania
 
 Czego będzie dotyczył projekt?
 Celem Waszego projektu będzie zaimplementowanie algorytmu genetycznego do dowolnie wybranego problemu. Innymi słowy trzeba będzie sprawić, by program nauczył się rozwiązywać problem (np. znaleźć najkrótszą drogę) samodzielnie. Jak w praktyce działa taki algorytm genetyczny, można zobaczyć w filmie: https://www.youtube.com/watch?v=mA8z0GndiYI  
@@ -17,7 +17,7 @@ Projekt będzie realizowany w języku Python. Do implementacji algorytmu genetyc
 
 ---
 
-##Linki
+## Linki
 
 https://github.com/Sandalas98/BIAI-2026/blob/main/problemy-zadania.pdf 
 
