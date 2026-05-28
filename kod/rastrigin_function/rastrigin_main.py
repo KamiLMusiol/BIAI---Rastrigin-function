@@ -60,25 +60,21 @@ class Rastrigin:
     def visualization2d(self) -> None:
         x = np.linspace(-5.12, 5.12, 1000)
 
-        # 2. Obliczenie wartości funkcji Rastrigina dla jednego wymiaru (n=1)
+        # Obliczenie wartości funkcji Rastrigina dla jednego wymiaru (n=1)
         # Wzór: 10*1 + x^2 - 10*cos(2*pi*x)
         y = 10 + x ** 2 - 10 * np.cos(2 * np.pi * x)
 
-        # 3. Rysowanie wykresu
+
         plt.figure(figsize=(10, 6))
         plt.plot(x, y, color='blue', linewidth=1)
 
-        # Kosmetyka wykresu (aby przypominał ten ze zdjęcia)
-        plt.title('2D View - Funkcja Rastrigina')
+
+        plt.title('2D  - Funkcja Rastrigina')
         plt.xlabel('x')
         plt.ylabel('f(x)')
 
-        # Dodanie lekkiej siatki ułatwiającej odczytywanie wartości
+
         plt.grid(True, linestyle='--', alpha=0.6)
 
-        # Ustawienie limitów osi dla lepszej widoczności
-        plt.xlim(-5.12, 5.12)
-        plt.ylim(0, 45)
 
-        # Wyświetlenie okna z wykresem
         plt.show()
